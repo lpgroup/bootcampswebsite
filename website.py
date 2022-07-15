@@ -52,8 +52,8 @@ task1 = st.selectbox("👈 Selecione o curso desejado:",
                      "Curso D2 - Compliance em escritórios de advocacia",                                #Curso 02 - ok
                      "Curso D3 - Lei Geral de Proteção de Dados (LGPD)",                                 #Curso 03 - ok
                      "Curso D4 - Introdução à elaboração de Contratos",                                  #Curso 04 - ok
-                     "Curso C1 - Eng. Civil 1.....",                                                     #Curso 05
-                     "Curso C2 - Eng. Civil 2.....",                                                     #Curso 06
+                     "Curso C1 - Eng. Civil 1..",                                                     #Curso 05
+                     "Curso C2 - Eng. Civil 2..",                                                     #Curso 06
                      "Curso F1 - Introdução à Finanças",                                                 #Curso 07 - ok             
                      "Curso F2 - Análise financeira em Modelo de Negócio",                               #Curso 08 - ok
                      "Curso G1 - Introdução à Gestão de Pessoas e Projetos",                             #Curso 09 - ok?
@@ -80,8 +80,8 @@ if task1 == "Clique na seta ao lado para exibir informações sobre o curso!":
     **👈 Os cursos possuem temas focados em: Direito, Eng. Civil, Manutenção e Instalação, Tecnologia e Temas diversos!**        
     """
     )
-elif task1 == "Curso C1 - Eng. Civil 1.....":
-st.markdown(""" ### **Curso C1 - Eng. Civil 1..... (Carga Horária: ??h)** """) 
+elif task1 == "Curso C1 - Eng. Civil 1..":
+    st.markdown(""" ### **Curso C1 - Eng. Civil 1... (Carga Horária: ??h)** """) 
     st.markdown(""" **👈 Responsável:** Eng. Victor Marques """)
     st.markdown(
     """
