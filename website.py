@@ -80,6 +80,28 @@ if task1 == "Clique na seta ao lado para exibir informações sobre o curso!":
     **👈 Os cursos possuem temas focados em: Direito, Eng. Civil, Manutenção e Instalação, Tecnologia e Temas diversos!**        
     """
     )
+elif task1 == "Curso C1 - Eng. Civil 1.....":
+st.markdown(""" ### **Curso C1 - Eng. Civil 1..... (Carga Horária: ??h)** """) 
+    st.markdown(""" **👈 Responsável:** Eng. Victor Marques """)
+    st.markdown(
+    """
+    Neste minicurso os participantes serão apresentados à ......
+    ## Objetivos:
+    - 01. ... 
+    - 02. ... 
+    - 03. ... 
+    - 04. ...
+    - 05. ...
+    - 06. Prática e dúvidas
+   
+    ### CRONOGRAMA
+    DIA | CH HORÁRIA | CONTEÚDO
+    :---------: | :------: | :-------:
+    Dia 1 de 3 | ?h | ? a ?
+    Dia 2 de 3 | ?h | ? a ?
+    Dia 3 de 3 | ?h | ? a ?  
+    """
+    )	
 elif task1 == "Curso D1 - Nova lei de improbidade administrativa":
     st.markdown(""" ### **Curso D1 - Nova lei de improbidade administrativa (Carga Horária: 12h)** """) 
     st.markdown(""" **👈 Responsável:** Dr. Edilson Vitorelli """)
@@ -589,7 +611,7 @@ with c1:
     st.info(
     """
     ***ENG. CIVIL 1...*** (Carga Horária: ?h).
-    :male-technologist: ***Resp.:*** ????
+    :male-technologist: ***Resp.:*** Victor Marques
     Neste minicurso os participantes serão apresentados à ......
     *** Objetivos:...***
     [Inscreva-se neste curso clicando aqui!](https://forms.gle/GPCnsywpCSvUuZkv5)
@@ -599,7 +621,7 @@ with c2:
     st.info(
     """
     ***ENG. CIVIL 2...*** (Carga Horária: ?h).
-    :male-technologist: ***Resp.:*** ???
+    :male-technologist: ***Resp.:*** Victor Marques
     Neste minicurso os participantes serão apresentados à ......
     *** Objetivos:...***
     [Inscreva-se neste curso clicando aqui!](https://forms.gle/GPCnsywpCSvUuZkv5)
@@ -609,7 +631,7 @@ with c3:
     st.info(
     """
     ***ENG. CIVIL 3...*** (Carga Horária: ?h).
-    :male-technologist: ***Resp.:*** ????
+    :male-technologist: ***Resp.:*** Victor Marques e/ou parceiros
     Neste minicurso os participantes serão apresentados à ......
     *** Objetivos:...***
     [Inscreva-se neste curso clicando aqui!](https://forms.gle/GPCnsywpCSvUuZkv5)
